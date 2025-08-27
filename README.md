@@ -9,6 +9,7 @@ It is a simple django project or website in which we can Analyze text.
 3)New Line Remove<br>
 4)Extra Spaces Remover<br>
 5)Character Counter
+6)Number Remover
 
 <h1>Requirments</h1>
 python3<br>
