@@ -72,16 +72,28 @@
   <input type="checkbox" name="charcount" class="custom-control-input" id="customSwitch5">
   <label class="custom-control-label" for="customSwitch5">count character</label>
 </div>
+      <div class="custom-control custom-switch">
+  <input type="checkbox" name="numberemover" class="custom-control-input" id="customSwitch6">
+  <label class="custom-control-label" for="customSwitch6">Number Remover</label>
+</div>
 
-      {% if messages %}
+<!-- here we pass the messages on the same  -->
+  {% if messages %}
   {% for message in messages %}
     <div class="text-danger">{{ message }}</div>
-      {% endfor %}
+  {% endfor %}
 {% endif %}
 
-      <button class="btn btn-dark mt-3" type="submit">Analyze Text</button>
+      <button class="btn btn-dark mt-3 mb-4" type="submit">Analyze Text</button>
 </form>
   </div>
+
+<!--  footer-->
+  <footer class="footer mt-auto bg-dark py-3" >
+  <div class="container text-center">
+    <span class="text-light">&#169; 2025 Textutils.co </span>
+  </div>
+</footer>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
